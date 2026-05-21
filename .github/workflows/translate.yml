@@ -28,7 +28,8 @@ jobs:
           ARB_TRANSLATE_API_KEY: ${{ secrets.ARB_TRANSLATE_API_KEY }}
         run: |
           flutter pub global activate arb_translate
-          flutter pub global run arb_translate --custom-model gemini-2.5-flash --custom-model-provider-base-url https://generativelanguage.googleapis.com
+          flutter pub global run arb_translate
+      
       # 5. Guardar los cambios automáticamente en tu repositorio
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
