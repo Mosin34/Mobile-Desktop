@@ -28,7 +28,7 @@ jobs:
           ARB_TRANSLATE_API_KEY: ${{ secrets.ARB_TRANSLATE_API_KEY }}
         run: |
           flutter pub global activate arb_translate
-          flutter pub global run arb_translate --model gemini-1.5-flash
+          flutter pub global run arb_translate --model gemini-1.5-flash-8b
 
       # 5. Guardar los cambios automáticamente en tu repositorio
       - name: Commit and push changes
