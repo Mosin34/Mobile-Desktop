@@ -27,7 +27,7 @@ jobs:
         env:
           ARB_TRANSLATE_API_KEY: ${{ secrets.ARB_TRANSLATE_API_KEY }}
         run: |
-          flutter pub global activate arb_translate
+          dart pub global activate --source git https://github.com/JulianPscheid/arb_translate.git
           flutter pub global run arb_translate
       
       # 5. Guardar los cambios automáticamente en tu repositorio
