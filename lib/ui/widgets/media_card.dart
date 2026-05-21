@@ -373,8 +373,7 @@ class _CardImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final radius = isCircular ? 999.0 : 8.0;
-    final isNeon = ThemeRegistry.active.id == ThemeRegistry.neonPulseId;
-    final showBorder = !suppressFocusBorder && !isNeon && (focused || hovered);
+    final showBorder = !suppressFocusBorder && (focused || hovered);
     final borderColor = focusColor ?? Theme.of(context).colorScheme.primary;
     final borders = ThemeRegistry.active.borders;
     return AspectRatio(
