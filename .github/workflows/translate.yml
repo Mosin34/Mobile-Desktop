@@ -22,13 +22,13 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
-      # 4. Activar e invocar arb_translate usando tu clave secreta de Gemini
+            # 4. Activar e invocar arb_translate usando tu clave secreta y un modelo activo
       - name: Run arb_translate
         env:
           ARB_TRANSLATE_API_KEY: ${{ secrets.ARB_TRANSLATE_API_KEY }}
         run: |
           flutter pub global activate arb_translate
-          flutter pub global run arb_translate
+          flutter pub global run arb_translate --model gemini-1.5-flash
 
       # 5. Guardar los cambios automáticamente en tu repositorio
       - name: Commit and push changes
