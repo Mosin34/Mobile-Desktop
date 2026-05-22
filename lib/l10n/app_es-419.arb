@@ -1,5 +1,5 @@
 {
-  "@@locale": "es",
+  "@@locale": "es_419",
   "appTitle": "Moonfin",
   "@appTitle": {
     "description": "The application title"
@@ -25,7 +25,7 @@
   "@password": {
     "description": "Password field label and toggle button"
   },
-  "username": "Nombre de usuario",
+  "username": "Usuario",
   "@username": {
     "description": "Username field label"
   },
@@ -58,7 +58,7 @@
       }
     }
   },
-  "quickConnectUnavailableWithStatus": "QuickConnect no disponible ({status}): {detail}",
+  "quickConnectUnavailableWithStatus": "Conexión rápida no disponible ({status}): {detail}",
   "@quickConnectUnavailableWithStatus": {
     "description": "Quick Connect error message with HTTP status info",
     "placeholders": {
@@ -82,7 +82,7 @@
   "@selectServer": {
     "description": "Button to navigate back to server selection"
   },
-  "appVersionFooter": "Versión Moonfin {version}",
+  "appVersionFooter": "Versión de Moonfin {version}",
   "@appVersionFooter": {
     "description": "App version shown in footer",
     "placeholders": {
@@ -111,7 +111,7 @@
   "@addServer": {
     "description": "Button to manually add a server address"
   },
-  "embyConnect": "Emby Conectar",
+  "embyConnect": "Emby Connect",
   "@embyConnect": {
     "description": "Emby Connect sign-in option label"
   },
@@ -160,7 +160,7 @@
   "@secureStorageUnavailableMessage": {
     "description": "Explanation when secure storage is not available"
   },
-  "ok": "DE ACUERDO",
+  "ok": "Ok",
   "@ok": {
     "description": "Generic OK button label"
   },
@@ -285,7 +285,7 @@
   "@schedule": {
     "description": "Live TV schedule button label"
   },
-  "series": "Serie",
+  "series": "Series",
   "@series": {
     "description": "Section header for TV series"
   },
@@ -497,7 +497,7 @@
   "@justNow": {
     "description": "Relative time for less than a minute ago"
   },
-  "minutesAgo": "{count}hace m",
+  "minutesAgo": "hace {count}m",
   "@minutesAgo": {
     "description": "Relative time in minutes",
     "placeholders": {
@@ -506,7 +506,7 @@
       }
     }
   },
-  "hoursAgo": "{count}hace h",
+  "hoursAgo": "hace {count}h",
   "@hoursAgo": {
     "description": "Relative time in hours",
     "placeholders": {
@@ -515,7 +515,7 @@
       }
     }
   },
-  "daysAgo": "{count}hace d",
+  "daysAgo": "hace {count}d",
   "@daysAgo": {
     "description": "Relative time in days",
     "placeholders": {
@@ -617,40 +617,48 @@
   "@pickUpAgain": {
     "description": "Book rail title for in-progress bookmarked items"
   },
-  "bookHighlightsDescription": "Tus libros con destacados, favoritos o progreso de lectura.",
+  "bookHighlightsDescription": "Tus libros con destacados, favoritos o progreso de lectura",
   "@bookHighlightsDescription": {
     "description": "Subtitle for saved highlights section"
   },
-  "handPickedFromLibrary": "Seleccionados de tu biblioteca.",
+  "handPickedFromLibrary": "Seleccionados de tu biblioteca",
   "@handPickedFromLibrary": {
     "description": "Subtitle for primary book rail from library"
   },
-  "handPickedFromListeningQueue": "Seleccionados de tu cola de escucha.",
+  "handPickedFromListeningQueue": "Seleccionados de tu cola de escucha",
   "@handPickedFromListeningQueue": {
     "description": "Subtitle for prim: {
     "description": "Music browse view button label"
   },
+  "bookmarks": "Marcadores",
   "@bookmarks": {
     "description": "Bookmarks dialog title and navigation label"
   },
+  "noSavedBookmarks": "Aún no hay marcadores guardados para este título.",
   "@noSavedBookmarks": {
     "description": "Empty state in book bookmarks dialog"
   },
+  "@openBook": "Abrir libro",
   "@openBook": {
     "description": "Button to open a book for reading"
   },
+  "chapter": "Capítulo",
   "@chapter": {
     "description": "Bookmark mode label for epub format"
   },
+  "page": "Página",
   "@page": {
     "description": "Bookmark mode label for pdf/comic format"
   },
+  "bookmark": "Marcador",
   "@bookmark": {
     "description": "Generic bookmark mode label"
   },
+  "justnow": "En este momento",
   "@justNow": {
     "description": "Relative time for less than a minute ago"
   },
+  "minutesAgo": "Hace {count}m",
   "@minutesAgo": {
     "description": "Relative time in minutes",
     "placeholders": {
@@ -659,6 +667,7 @@
       }
     }
   },
+  "hoursAgo": "Hace {count}h",
   "@hoursAgo": {
     "description": "Relative time in hours",
     "placeholders": {
@@ -667,6 +676,7 @@
       }
     }
   },
+"daysAgo": "Hace {count}d",
   "@daysAgo": {
     "description": "Relative time in days",
     "placeholders": {
@@ -675,33 +685,43 @@
       }
     }
   },
+  "discoverySubjects": "Temas de descubrimiento",
   "@discoverySubjects": {
     "description": "Title for the book discovery subject picker panel"
   },
+  "pickDiscoverySubjects": "Seleccionar temas de descubrimiento",
   "@pickDiscoverySubjects": {
     "description": "Instruction text in discovery subject picker"
   },
+  "apply": "aplicar",
   "@apply": {
     "description": "Button label to apply selected options"
   },
+  "openLink": "Abrir link",
   "@openLink": {
     "description": "Action label to open a URL externally"
   },
+  "scanWithYourPhone": "Escanea con tu teléfono",
   "@scanWithYourPhone": {
     "description": "Instruction shown above a QR code"
   },
+  "audiobookGenres": "Géneros de audiolibros",
   "@audiobookGenres": {
     "description": "Title for audiobook genre picker panel"
   },
+  "pickAudiobookGenres": "Selecciona qué géneros quieres que se muestren en la sección Descubrir audiolibros.",
   "@pickAudiobookGenres": {
     "description": "Instruction text in audiobook genre picker"
   },
+  "discoverAudiobooks": "Descubre audiolibros",
   "@discoverAudiobooks": {
     "description": "Section title for audiobook discovery"
   },
+  "librivoxDescription": "Títulos populares de dominio público de LibriVox.",
   "@librivoxDescription": {
     "description": "Subtitle for audiobook discovery section"
   },
+  "titlesCount": "{count} Títulos",
   "@titlesCount": {
     "description": "Label showing number of titles",
     "placeholders": {
@@ -710,81 +730,107 @@
       }
     }
   },
+  "scrollLeft": "desplazar hacia la izquierda",
   "@scrollLeft": {
     "description": "Tooltip for scroll left button"
   },
+  "scrollRight": "desplazar hacia la derecha",
   "@scrollRight": {
     "description": "Tooltip for scroll right button"
   },
+  "couldNotLoadGenre": "No se pudo cargar este género en este momento.",
   "@couldNotLoadGenre": {
     "description": "Error when a genre row fails to load"
   },
+  "continueReading": "Continuar leyendo",
   "@continueReading": {
     "description": "Section title for books in progress"
   },
+  "savedHighlights": "Destacados guardados",
   "@savedHighlights": {
     "description": "Section title for bookmarked content"
   },
+  "continueListening": "Continuar escuchando",
   "@continueListening": {
     "description": "Section title for audiobooks in progress"
   },
+  "listen": "Escuchar",
   "@listen": {
     "description": "Primary action label for audiobooks"
   },
+  "resume": "Reanudar",
   "@resume": {
     "description": "Primary action label for resuming reading"
   },
+  "failedToLoadLibrary": "Error al cargar la biblioteca",
   "@failedToLoadLibrary": {
     "description": "Error when a library cannot be loaded"
   },
+  "popularNow": "Popular ahora",
   "@popularNow": {
     "description": "Book rail title for popular items"
   },
+  "savedForLater": "Guardado para luego",
   "@savedForLater": {
     "description": "Book rail title for bookmarked items"
   },
+  "topListens": "Los mejores",
   "@topListens": {
     "description": "Book rail title for popular audiobooks"
   },
+  "unreadDiscoveries": "Descubrimientos no leídos",
   "@unreadDiscoveries": {
     "description": "Book rail title for unread items"
   },
+  "pickUpAgain": "Retomar",
   "@pickUpAgain": {
     "description": "Book rail title for in-progress bookmarked items"
   },
+  "bookHighlightsDescription": "Tus libros con subrayados, favoritos o progreso de lectura.",
   "@bookHighlightsDescription": {
     "description": "Subtitle for saved highlights section"
   },
+  "handPickedFromLibrary": "Seleccionado cuidadosamente de tu biblioteca.",
   "@handPickedFromLibrary": {
     "description": "Subtitle for primary book rail from library"
   },
+  "handPickedFromListeningQueue": "Seleccionado manualmente de tu lista de reproducción.",
   "@handPickedFromListeningQueue": {
     "description": "Subtitle for primary book rail from audiobooks"
   },
+  "booksWithHighlights": "Libros con resaltados",
   "@booksWithHighlights": {
     "description": "Subtitle for bookmarks secondary rail"
   },
+  "jumpBackNarration": "Retoma la narración sin tener que buscar dónde te quedaste.",
   "@jumpBackNarration": {
     "description": "Subtitle for audiobook continue listening rail"
   },
+  "unreadBooksReady": "Libros sin leer, listos para la próxima hora de tranquilidad.",
   "@unreadBooksReady": {
     "description": "Subtitle for unread discoveries rail"
   },
+  "quickAccessFavorites": "Acceso rápido a los libros a los que siempre vuelves.",
   "@quickAccessFavorites": {
     "description": "Subtitle for favorites book rail"
   },
+  "searchAudiobooks": "Buscar audiolibros",
   "@searchAudiobooks": {
     "description": "Placeholder text in audiobook search bar"
   },
+  "searchYourLibrary": "Buscar en tu biblioteca",
   "@searchYourLibrary": {
     "description": "Placeholder text in library search bar"
   },
+  "pickUpStory": "Retoma la historia donde la dejaste.",
   "@pickUpStory": {
     "description": "Hero card subtitle for library and audiobook sections"
   },
+  "savedPlacesChapters": "Tus lugares guardados y capítulos sin terminar",
   "@savedPlacesChapters": {
     "description": "Hero card subtitle for bookmarks section"
   },
+  "authorsCount": "{count} autores",
   "@authorsCount": {
     "description": "Metric pill showing author count",
     "placeholders": {
@@ -793,6 +839,7 @@
       }
     }
   },
+  "genresCount": "{count} generos",
   "@genresCount": {
     "description": "Metric pill showing genre count",
     "placeholders": {
@@ -801,6 +848,7 @@
       }
     }
   },
+  "percentCompleted": "{percent}% completado",
   "@percentCompleted": {
     "description": "Reading progress percentage label",
     "placeholders": {
@@ -809,18 +857,23 @@
       }
     }
   },
+  "readyWhenYouAre": "Listo cuando estés",
   "@readyWhenYouAre": {
     "description": "Label shown when no reading progress exists"
   },
+  "details": "Detalles",
   "@details": {
     "description": "Button and title label for detail views"
   },
+  "listeningRoom": "Sala de escucha",
   "@listeningRoom": {
     "description": "Panel header for audiobook section"
   },
+  "bookmarksAndProgress": "Marcadores y progreso",
   "@bookmarksAndProgress": {
     "description": "Panel header for bookmarks section"
   },
+  "titlesArrangedForBrowsing": "{count} títulos ordenados para una navegación de lectura.",
   "@titlesArrangedForBrowsing": {
     "description": "Panel subtitle showing total titles",
     "placeholders": {
@@ -829,36 +882,47 @@
       }
     }
   },
+  "titles": "Títulos",
   "@titles": {
     "description": "Stat card label for total titles"
   },
+  "allTitles": "Todos los títulos",
   "@allTitles": {
     "description": "Collection picker dialog title for all titles"
   },
+  "authors": "Autores",
   "@authors": {
     "description": "Stat card label for author count"
   },
+  "browseByAuthor": "Navegar por autor",
   "@browseByAuthor": {
     "description": "Collection picker dialog title for author browse"
   },
+  "browseByGenre": "Navegar por género",
   "@browseByGenre": {
     "description": "Collection picker dialog title for genre browse"
   },
+  "discover": "Descubrir",
   "@discover": {
     "description": "Section title for book discovery"
   },
+  "trendingTitlesOpenLibrary": "Títulos de moda en OpenLibrary",
   "@trendingTitlesOpenLibrary": {
     "description": "Subtitle for book discovery section"
   },
+  "noBookmarkedItems": "Aún no hay elementos marcados como favoritos.",
   "@noBookmarkedItems": {
     "description": "Empty state for bookmarks grid"
   },
+  "nothingMatchesSection": "Aún no hay nada que coincida con esta sección. Prueba con otra pestaña o vuelve después de que finalice la sincronización de la biblioteca.",
   "@nothingMatchesSection": {
     "description": "Empty state for book experience when no items match"
   },
+  "audiobooks": "Audiolibros",
   "@audiobooks": {
     "description": "Audiobooks navigation and tab label"
   },
+  "noLabelFound": "No se encontró {label}",
   "@noLabelFound": {
     "description": "Empty state with dynamic label like books or audiobooks",
     "placeholders": {
@@ -867,72 +931,95 @@
       }
     }
   },
+  "folder": "Carpeta",
   "@folder": {
     "description": "Fallback subtitle for navigable folder items"
   },
+  "filters": "Filtros",
   "@filters": {
     "description": "Section header for filter options"
   },
+  "readingStatus": "Estado de lectura",
   "@readingStatus": {
     "description": "Section header for book reading status filter"
   },
+  "playedStatus": "Estado de reproducción",
   "@playedStatus": {
     "description": "Section header for played status filter"
   },
+  "readStatus": "Leído",
   "@readStatus": {
     "description": "Filter label for read/watched items in book libraries"
   },
+  "watched": "Mirado",
   "@watched": {
     "description": "Filter label for watched items"
   },
+  "unread": "No leído",
   "@unread": {
     "description": "Status label for an unread book"
   },
+  "unwatched": "Sin ver",
   "@unwatched": {
     "description": "Filter label for unwatched items"
   },
+  "seriesStatus": "Estado de series",
   "@seriesStatus": {
     "description": "Section header for series status filter"
   },
+  "allLibraries": "Todas las bibliotecas",
   "@allLibraries": {
     "description": "Label when all libraries are selected"
   },
+  "books": "Libros",
   "@books": {
     "description": "Book media tab label"
   },
+  "author": "Autor",
   "@author": {
     "description": "Organize mode label for grouping by author"
   },
+  "unknownAuthor": "Autor desconocido",
   "@unknownAuthor": {
     "description": "Fallback text when book author is not available"
   },
+  "uncategorized": "Sin categorizar",
   "@uncategorized": {
     "description": "Fallback text when genre is not available"
   },
+  "overview": "descripción general",
   "@overview": {
     "description": "Section header for content overview/description"
   },
+  "noLibrivoxDescription": "LibriVox aún no ha proporcionado ninguna descripción para este título.",
   "@noLibrivoxDescription": {
     "description": "Fallback when LibriVox title has no description"
   },
+  "readers": "Lectores",
   "@readers": {
     "description": "Section header for LibriVox audiobook readers"
   },
+  "openLinks": "Abrir links",
   "@openLinks": {
     "description": "Section header for external links"
   },
+  "librivoxPage": "Página de librivox",
   "@librivoxPage": {
     "description": "Button label for LibriVox external link"
   },
+  "internetArchive": "Internet archive",
   "@internetArchive": {
     "description": "Button label for Internet Archive external link"
   },
+  "rssFeed": "RSS Feed",
   "@rssFeed": {
     "description": "Button label for RSS feed external link"
   },
+  "downloadZip": "Descargar zip",
   "@downloadZip": {
     "description": "Button label for zip download external link"
   },
+  "sectionCountLabel": "{count} secciones",
   "@sectionCountLabel": {
     "description": "Detail chip showing number of sections in audiobook",
     "placeholders": {
@@ -941,6 +1028,7 @@
       }
     }
   },
+  "firstPublished": "Publicado por primera vez en {year}",
   "@firstPublished": {
     "description": "Publication year for a book",
     "placeholders": {
@@ -949,15 +1037,19 @@
       }
     }
   },
+  "noOpenLibraryOverview": "Aún no hay información general disponible en Open Library para este título.",
   "@noOpenLibraryOverview": {
     "description": "Fallback when Open Library has no description"
   },
+  "subjects": "Temas",
   "@subjects": {
     "description": "Section header for Open Library subjects"
   },
+  "all": "Todos",
   "@all": {
     "description": "Filter option for showing all items"
   },
+  "booksCount": "{count} libros",
   "@booksCount": {
     "description": "Label showing number of books in a discover row",
     "placeholders": {
@@ -966,12 +1058,15 @@
       }
     }
   },
+  "couldNotLoadSubject": "No se pudo cargar este tema en este momento.",
   "@couldNotLoadSubject": {
     "description": "Error when a discover subject row fails to load"
   },
+  "audiobookDetails": "Detalles del audiolibro",
   "@audiobookDetails": {
     "description": "AppBar title for LibriVox audiobook detail screen"
   },
+  "authorsCountTitle": "{count} Autores",
   "@authorsCountTitle": {
     "description": "AppBar title for LibriVox authors list screen",
     "placeholders": {
@@ -980,6 +1075,7 @@
       }
     }
   },
+  "audiobookCountLabel": "{count, plural, =1{1 audiolibro} other{{count} audiolibros}}",
   "@audiobookCountLabel": {
     "description": "Subtitle showing number of audiobooks by an author",
     "placeholders": {
@@ -988,66 +1084,87 @@
       }
     }
   },
+  "trackList": "Lista de canciones",
   "@trackList": {
     "description": "AppBar title for the item list screen"
   },
+  "itemListPlaceholder": "La lista de canciones aparecerá aquí.",
   "@itemListPlaceholder": {
     "description": "Placeholder text for an empty item list screen"
   },
+  "favoriteTracksPlaceholder": "Aquí aparecerán tus canciones favoritas.",
   "@favoriteTracksPlaceholder": {
     "description": "Placeholder text for an empty music favorites screen"
   },
+  "failedToLoad": "Error al cargar",
   "@failedToLoad": {
     "description": "Error message when item detail fails to load"
   },
+  "delete": "Eliminar",
   "@delete": {
     "description": "Delete action button label"
   },
+  "save": "Guardar",
   "@save": {
     "description": "Save action button label"
   },
+  "moreLikeThis": "Más como este",
   "@moreLikeThis": {
     "description": "Section header for similar items"
   },
+  "castAndCrew": "Elenco y equipo",
   "@castAndCrew": {
     "description": "Section header for cast and crew section"
   },
+  "collection": "Recopilación",
   "@collection": {
     "description": "Section header for collection items"
   },
+  "episodes": ”Episodios",
   "@episodes": {
     "description": "Section header for episodes"
   },
+  "nextUp": "Siguiente",
   "@nextUp": {
     "description": "Home section: next up"
   },
+  "seasons": "Temporadas",
   "@seasons": {
     "description": "Section header for seasons"
   },
+  "chapters": "Capítulos",
   "@chapters": {
     "description": "Section header for chapters"
   },
+  "features": "Características",
   "@features": {
     "description": "Section header for special features"
   },
+  "movies": "Películas",
   "@movies": {
     "description": "Section header for movies"
   },
+  "other": "Otros",
   "@other": {
     "description": "Section header for other items"
   },
+  "discography": "Discografía",
   "@discography": {
     "description": "Section header for artist discography"
   },
+  "similarArtists": "Artistas similares",
   "@similarArtists": {
     "description": "Section header for similar artists"
   },
+  "tableOfContents": "Tabla de contenidos",
   "@tableOfContents": {
     "description": "Section header for audiobook chapters"
   },
+  "tracklist": "Lista de Álbumes",
   "@tracklist": {
     "description": "Section header for album track listing"
   },
+  "biography": "Biografía",
   "@biography": {
     "description": "Section header for person biography"
   },
