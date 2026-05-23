@@ -3,3 +3,6 @@ template-arb-file: app_en.arb
 output-localization-file: app_localizations.dart
 output-class: AppLocalizations
 nullable-getter: false
+arb-translate-model-provider: custom
+arb-translate-custom-model: deepseek-v4-flash
+arb-translate-custom-model-provider-base-url: https://api.deepseek.com
