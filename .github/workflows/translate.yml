@@ -22,14 +22,14 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
-            # 4. Activar e invocar arb_translate usando tu clave secreta y un modelo activo
+      # 4. Activar e invocar arb_translate usando tu clave secreta de Gemini
       - name: Run arb_translate
         env:
           ARB_TRANSLATE_API_KEY: ${{ secrets.ARB_TRANSLATE_API_KEY }}
         run: |
-          dart pub global activate --source git https://github.com/JulianPscheid/arb_translate.git
+          flutter pub global activate arb_translate
           flutter pub global run arb_translate
-      
+
       # 5. Guardar los cambios automáticamente en tu repositorio
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
