@@ -29,12 +29,603 @@
   "@username": {
     "description": "Username field label"
   },
-  "quickConnectInstruction": "Introduce este código en el panel web de tu servidor:",
+  "email": "Correo electrónico",
+  "@email": {
+    "description": "Email field label"
+  },
+  "quickConnectInstruction": "Ingrese este código en el panel web de su servidor:",
   "@quickConnectInstruction": {
     "description": "Instruction text for Quick Connect code entry"
   },
   "waitingForAuthorization": "Esperando autorización...",
   "@waitingForAuthorization": {
+    "description": "Quick Connect polling status text"
+  },
+  "back": "Atrás",
+  "@back": {
+    "description": "Back button label"
+  },
+  "serverUnavailable": "El servidor no está disponible",
+  "@serverUnavailable": {
+    "description": "Error message when server cannot be reached"
+  },
+  "loginFailed": "error de inicio de sesion",
+  "@loginFailed": {
+    "description": "Generic login failure message"
+  },
+  "quickConnectUnavailable": "Conexión rápida no disponible: {detail}",
+  "@quickConnectUnavailable": {
+    "description": "Quick Connect generic error message",
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "quickConnectUnavailableWithStatus": "QuickConnect no disponible ({status}): {detail}",
+  "@quickConnectUnavailableWithStatus": {
+    "description": "Quick Connect error message with HTTP status info",
+    "placeholders": {
+      "status": {
+        "type": "String"
+      },
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "whosWatching": "¿Quién está mirando?",
+  "@whosWatching": {
+    "description": "Server user selection heading"
+  },
+  "addUser": "Agregar usuario",
+  "@addUser": {
+    "description": "Button to add a new user on the server screen"
+  },
+  "selectServer": "Seleccionar servidor",
+  "@selectServer": {
+    "description": "Button to navigate back to server selection"
+  },
+  "appVersionFooter": "Versión Moonfin {version}",
+  "@appVersionFooter": {
+    "description": "App version shown in footer",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "savedServers": "Servidores guardados",
+  "@savedServers": {
+    "description": "Section heading for previously saved servers"
+  },
+  "discoveredServers": "Servidores descubiertos",
+  "@discoveredServers": {
+    "description": "Section heading for auto-discovered local servers"
+  },
+  "noneFound": "No se encontró ninguno",
+  "@noneFound": {
+    "description": "Shown when no servers are discovered on the network"
+  },
+  "unableToConnectToServer": "No se puede conectar al servidor",
+  "@unableToConnectToServer": {
+    "description": "Error when a server connection attempt fails"
+  },
+  "addServer": "Agregar servidor",
+  "@addServer": {
+    "description": "Button to manually add a server address"
+  },
+  "embyConnect": "Emby Conectar",
+  "@embyConnect": {
+    "description": "Emby Connect sign-in option label"
+  },
+  "removeServer": "Quitar servidor",
+  "@removeServer": {
+    "description": "Dialog title for removing a saved server"
+  },
+  "removeServerConfirmation": "¿Eliminar \"{serverName}\" de sus servidores?",
+  "@removeServerConfirmation": {
+    "description": "Confirmation message when removing a saved server",
+    "placeholders": {
+      "serverName": {
+        "type": "String"
+      }
+    }
+  },
+  "cancel": "Cancelar",
+  "@cancel": {
+    "description": "Generic cancel button label"
+  },
+  "remove": "Eliminar",
+  "@remove": {
+    "description": "Remove button label in confirmation dialogs"
+  },
+  "connectToServer": "Conectarse al servidor",
+  "@connectToServer": {
+    "description": "Dialog title for adding a server by address"
+  },
+  "serverAddress": "Dirección del servidor",
+  "@serverAddress": {
+    "description": "Label for the server URL input field"
+  },
+  "serverAddressHint": "https://tu-servidor.ejemplo.com",
+  "@serverAddressHint": {
+    "description": "Hint text for the server URL input field"
+  },
+  "connect": "Conectar",
+  "@connect": {
+    "description": "Button to initiate connection to a server"
+  },
+  "secureStorageUnavailable": "Almacenamiento seguro no disponible",
+  "@secureStorageUnavailable": {
+    "description": "Dialog title when system keyring is inaccessible"
+  },
+  "secureStorageUnavailableMessage": "Moonfin no pudo acceder al conjunto de claves de su sistema. El inicio de sesión puede continuar, pero es posible que el almacenamiento seguro del token no esté disponible hasta que se desbloquee el llavero.",
+  "@secureStorageUnavailableMessage": {
+    "description": "Explanation when secure storage is not available"
+  },
+  "ok": "DE ACUERDO",
+  "@ok": {
+    "description": "Generic OK button label"
+  },
+  "settingsAppearanceTheme": "Tema de la aplicación",
+  "@settingsAppearanceTheme": {
+    "description": "Title for the theme selection screen and theme settings entry"
+  },
+  "settingsAppearanceThemeSubtitle": "Cambia entre Moonfin y Neon Pulse sin reiniciar la aplicación",
+  "@settingsAppearanceThemeSubtitle": {
+    "description": "Subtitle for the theme selection screen and theme settings entry"
+  },
+  "keyboardPreferSystemIme": "Preferir teclado del sistema",
+  "@keyboardPreferSystemIme": {
+    "description": "Settings label for preferring the native system keyboard instead of the custom TV keyboard"
+  },
+  "keyboardPreferSystemImeDescription": "Usar el método de entrada del dispositivo por defecto para la escritura",
+  "@keyboardPreferSystemImeDescription": {
+    "description": "Settings subtitle for the system keyboard preference"
+  },
+  "themeMoonfin": "aleta lunar",
+  "@themeMoonfin": {
+    "description": "Display name for the Moonfin theme"
+  },
+  "themeMoonfinSubtitle": "Aspecto actual de Moonfin que a todos les encanta",
+  "@themeMoonfinSubtitle": {
+    "description": "Preview description for the Moonfin theme"
+  },
+  "themeNeonPulse": "Pulso de neón",
+  "@themeNeonPulse": {
+    "description": "Display name for the Neon Pulse theme"
+  },
+  "themeNeonPulseSubtitle": "Estilo Synthwave con brillo magenta, texto cian y contraste cromado más fuerte",
+  "@themeNeonPulseSubtitle": {
+    "description": "Preview description for the Neon Pulse theme"
+  },
+  "embyConnectSignInSubtitle": "Inicia sesión con tu cuenta de Emby Connect",
+  "@embyConnectSignInSubtitle": {
+    "description": "Subtitle on the Emby Connect sign-in screen"
+  },
+  "emailOrUsername": "Correo electrónico o nombre de usuario",
+  "@emailOrUsername": {
+    "description": "Label for the Emby Connect username/email field"
+  },
+  "selectAServer": "Seleccione un servidor",
+  "@selectAServer": {
+    "description": "Heading for the Emby Connect server list"
+  },
+  "tryAgain": "Intentar otra vez",
+  "@tryAgain": {
+    "description": "Button to retry a failed operation"
+  },
+  "noLinkedServers": "No hay servidores vinculados a esta cuenta de Emby Connect",
+  "@noLinkedServers": {
+    "description": "Error when Emby Connect account has no linked servers"
+  },
+  "invalidEmbyConnectCredentials": "Credenciales de Emby Connect no válidas",
+  "@invalidEmbyConnectCredentials": {
+    "description": "Error when Emby Connect auth response is invalid"
+  },
+  "invalidEmbyConnectLogin": "Nombre de usuario o contraseña de Emby Connect no válidos",
+  "@invalidEmbyConnectLogin": {
+    "description": "Error for wrong Emby Connect credentials"
+  },
+  "embyConnectExchangeNotSupported": "El servidor no admite el intercambio de Emby Connect",
+  "@embyConnectExchangeNotSupported": {
+    "description": "Error when server lacks Emby Connect exchange endpoint"
+  },
+  "embyConnectNetworkError": "Error de red al contactar con Emby Connect o el servidor seleccionado",
+  "@embyConnectNetworkError": {
+    "description": "Generic network error during Emby Connect flow"
+  },
+  "loadingLinkedServers": "Cargando servidores vinculados...",
+  "@loadingLinkedServers": {
+    "description": "Status text while fetching Emby Connect server list"
+  },
+  "connectingToServerEllipsis": "Conectándose al servidor...",
+  "@connectingToServerEllipsis": {
+    "description": "Status text while connecting to a selected server"
+  },
+  "noReachableAddress": "No se proporcionó ninguna dirección accesible",
+  "@noReachableAddress": {
+    "description": "Shown when a discovered server has no usable address"
+  },
+  "invalidServerExchangeResponse": "Respuesta no válida del punto final de intercambio del servidor",
+  "@invalidServerExchangeResponse": {
+    "description": "Error when server exchange returns invalid data"
+  },
+  "unableToConnectTo": "No se puede conectar a {target}",
+  "@unableToConnectTo": {
+    "description": "Error when connection to a specific server or address fails",
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "exitApp": "¿Salir de Moonfin?",
+  "@exitApp": {
+    "description": "Title of exit confirmation dialog"
+  },
+  "exitAppConfirmation": "¿Estás seguro de que quieres salir?",
+  "@exitAppConfirmation": {
+    "description": "Body text of exit confirmation dialog"
+  },
+  "exit": "Salida",
+  "@exit": {
+    "description": "Exit button label"
+  },
+  "noHomeRowsLoaded": "No se pudieron cargar filas de inicio",
+  "@noHomeRowsLoaded": {
+    "description": "Heading when home screen has no rows to display"
+  },
+  "noHomeRowsHint": "Intente actualizar o reducir las secciones de inicio activas.",
+  "@noHomeRowsHint": {
+    "description": "Hint text below the no-home-rows heading"
+  },
+  "retryHomeRows": "Reintentar filas de inicio",
+  "@retryHomeRows": {
+    "description": "Button to retry loading home rows after failure"
+  },
+  "guide": "Guía",
+  "@guide": {
+    "description": "Live TV guide button label"
+  },
+  "recordings": "Grabaciones",
+  "@recordings": {
+    "description": "Live TV recordings button label"
+  },
+  "schedule": "Cronograma",
+  "@schedule": {
+    "description": "Live TV schedule button label"
+  },
+  "series": "Serie",
+  "@series": {
+    "description": "Section header for TV series"
+  },
+  "noItemsFound": "No se encontraron artículos",
+  "@noItemsFound": {
+    "description": "Empty state when no items match the current view"
+  },
+  "home": "Hogar",
+  "@home": {
+    "description": "Home navigation tooltip"
+  },
+  "browseAll": "Explorar todo",
+  "@browseAll": {
+    "description": "Button to browse all items in a library"
+  },
+  "genres": "Géneros",
+  "@genres": {
+    "description": "Genres navigation label"
+  },
+  "collectionPlaceholder": "Los artículos de la colección aparecerán aquí.",
+  "@collectionPlaceholder": {
+    "description": "Placeholder text for empty collection screen"
+  },
+  "browseByLetter": "Buscar por letra",
+  "@browseByLetter": {
+    "description": "Title for alphabetical browse screen"
+  },
+  "alphabeticalBrowsePlaceholder": "La navegación alfabética aparecerá aquí",
+  "@alphabeticalBrowsePlaceholder": {
+    "description": "Placeholder text for alphabetical browse screen"
+  },
+  "suggestions": "Sugerencias",
+  "@suggestions": {
+    "description": "Title for suggestions screen"
+  },
+  "suggestionsPlaceholder": "Los elementos sugeridos aparecerán aquí.",
+  "@suggestionsPlaceholder": {
+    "description": "Placeholder text for suggestions screen"
+  },
+  "failedToLoadLibraries": "No se pudieron cargar las bibliotecas",
+  "@failedToLoadLibraries": {
+    "description": "Error when library list cannot be loaded"
+  },
+  "noLibrariesFound": "No se encontraron bibliotecas",
+  "@noLibrariesFound": {
+    "description": "Empty state when no libraries are available"
+  },
+  "library": "Biblioteca",
+  "@library": {
+    "description": "Library label used in navigation and fallback subtitle"
+  },
+  "displaySettings": "Configuración de pantalla",
+  "@displaySettings": {
+    "description": "Tooltip for display settings button"
+  },
+  "allGenres": "Todos los géneros",
+  "@allGenres": {
+    "description": "Title for the all genres screen"
+  },
+  "noGenresFound": "No se encontraron géneros",
+  "@noGenresFound": {
+    "description": "Empty state when no genres are available"
+  },
+  "failedToLoadFolderError": "No se pudo cargar la carpeta: {error}",
+  "@failedToLoadFolderError": {
+    "description": "Error when a folder cannot be loaded",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "thisFolderIsEmpty": "Esta carpeta está vacía",
+  "@thisFolderIsEmpty": {
+    "description": "Empty state for folder browse screen"
+  },
+  "itemCountLabel": "{count} elementos",
+  "@itemCountLabel": {
+    "description": "Subtitle showing number of items in a folder or collection",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "failedToLoadFavorites": "No se pudieron cargar favoritos",
+  "@failedToLoadFavorites": {
+    "description": "Error when favorites cannot be loaded"
+  },
+  "retry": "Rever",
+  "@retry": {
+    "description": "Button label to retry a failed operation"
+  },
+  "noFavoritesYet": "Aún no hay favoritos",
+  "@noFavoritesYet": {
+    "description": "Empty state when user has no favorites"
+  },
+  "favorites": "Favoritos",
+  "@favorites": {
+    "description": "Favorites section heading and filter label"
+  },
+  "totalCountItems": "{count} Artículos",
+  "@totalCountItems": {
+    "description": "Header showing total item count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "continuing": "Continuo",
+  "@continuing": {
+    "description": "Series status badge for ongoing series"
+  },
+  "ended": "Terminado",
+  "@ended": {
+    "description": "Series status badge for ended series"
+  },
+  "sortAndFilter": "Ordenar y filtrar",
+  "@sortAndFilter": {
+    "description": "Dialog title for sort and filter options"
+  },
+  "type": "Tipo",
+  "@type": {
+    "description": "Stream info label for subtitle type"
+  },
+  "sortBy": "Ordenar por",
+  "@sortBy": {
+    "description": "Section header for sort options"
+  },
+  "display": "Mostrar",
+  "@display": {
+    "description": "Dialog title for display settings"
+  },
+  "imageType": "Tipo de imagen",
+  "@imageType": {
+    "description": "Setting for image type"
+  },
+  "posterSize": "Tamaño del póster",
+  "@posterSize": {
+    "description": "Setting for poster size"
+  },
+  "small": "Pequeño",
+  "@small": {
+    "description": "Poster size option"
+  },
+  "medium": "Medio",
+  "@medium": {
+    "description": "Poster size option"
+  },
+  "large": "Grande",
+  "@large": {
+    "description": "Poster size option"
+  },
+  "extraLarge": "Extra grande",
+  "@extraLarge": {
+    "description": "Size option: extra large"
+  },
+  "libraryGenresTitle": "{name} — Géneros",
+  "@libraryGenresTitle": {
+    "description": "Header title showing library name with genres suffix",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "views": "Vistas",
+  "@views": {
+    "description": "Section header for music browse view buttons"
+  },
+  "albums": "Álbumes",
+  "@albums": {
+    "description": "Music browse view button label"
+  },
+  "albumArtists": "Artistas del álbum",
+  "@albumArtists": {
+    "description": "Music browse view button label"
+  },
+  "artists": "Artistas",
+  "@artists": {
+    "description": "Music browse view button label"
+  },
+  "bookmarks": "Marcadores",
+  "@bookmarks": {
+    "description": "Bookmarks dialog title and navigation label"
+  },
+  "noSavedBookmarks": "Aún no hay marcadores guardados para este título.",
+  "@noSavedBookmarks": {
+    "description": "Empty state in book bookmarks dialog"
+  },
+  "openBook": "Libro abierto",
+  "@openBook": {
+    "description": "Button to open a book for reading"
+  },
+  "chapter": "Capítulo",
+  "@chapter": {
+    "description": "Bookmark mode label for epub format"
+  },
+  "page": "Página",
+  "@page": {
+    "description": "Bookmark mode label for pdf/comic format"
+  },
+  "bookmark": "Marcador",
+  "@bookmark": {
+    "description": "Generic bookmark mode label"
+  },
+  "justNow": "En este momento",
+  "@justNow": {
+    "description": "Relative time for less than a minute ago"
+  },
+  "minutesAgo": "{count}hace m",
+  "@minutesAgo": {
+    "description": "Relative time in minutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "hoursAgo": "{count}hace h",
+  "@hoursAgo": {
+    "description": "Relative time in hours",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "daysAgo": "{count}hace d",
+  "@daysAgo": {
+    "description": "Relative time in days",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "discoverySubjects": "Sujetos de descubrimiento",
+  "@discoverySubjects": {
+    "description": "Title for the book discovery subject picker panel"
+  },
+  "pickDiscoverySubjects": "Elija qué feeds temáticos mostrar en Discover.",
+  "@pickDiscoverySubjects": {
+    "description": "Instruction text in discovery subject picker"
+  },
+  "apply": "Aplicar",
+  "@apply": {
+    "description": "Button label to apply selected options"
+  },
+  "openLink": "Abrir enlace",
+  "@openLink": {
+    "description": "Action label to open a URL externally"
+  },
+  "scanWithYourPhone": "Escanea con tu teléfono",
+  "@scanWithYourPhone": {
+    "description": "Instruction shown above a QR code"
+  },
+  "audiobookGenres": "Géneros de audiolibros",
+  "@audiobookGenres": {
+    "description": "Title for audiobook genre picker panel"
+  },
+  "pickAudiobookGenres": "Elija qué géneros mostrar en Audiobook Discover.",
+  "@pickAudiobookGenres": {
+    "description": "Instruction text in audiobook genre picker"
+  },
+  "discoverAudiobooks": "Descubra audiolibros",
+  "@discoverAudiobooks": {
+    "description": "Section title for audiobook discovery"
+  },
+  "librivoxDescription": "Títulos populares de dominio público de LibriVox.",
+  "@librivoxDescription": {
+    "description": "Subtitle for audiobook discovery section"
+  },
+  "titlesCount": "{count} títulos",
+  "@titlesCount": {
+    "description": "Label showing number of titles",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "scrollLeft": "Desplazarse hacia la izquierda",
+  "@scrollLeft": {
+    "description": "Tooltip for scroll left button"
+  },
+  "scrollRight": "Desplácese hacia la derecha",
+  "@scrollRight": {
+    "description": "Tooltip for scroll right button"
+  },
+  "couldNotLoadGenre": "No se pudo cargar este género en este momento.",
+  "@couldNotLoadGenre": {
+    "description": "Error when a genre row fails to load"
+  },
+  "continueReading": "Continuar leyendo",
+  "@continueReading": {
+    "description": "Section title for books in progress"
+  },
+  "savedHighlights": "Destacados guardados",
+  "@savedHighlights": {
+    "description": "Section title for bookmarked content"
+  },
+  "continueListening": "Continuar escuchando",
+  "@continueListening": {
+    "description": "Section title for audiobooks in progress"
+  },
+  "listen": "Escuchar",
+  "@listen": {
+    "description": "Primary action label for audiobooks"
+  },
+  "resume": "Reanudar",
+  "@resume": {
+    "description": "Primary action label for resuming reading"
+  },
+  "failedToLoadLibrary": "No se pudo cargar la biblioteca",
+  "@failedToLoadLibrary": {
+    "description": "Error when a library cannot be loaded"
+  },
+  "popularNow": "Popular ahora",
+  "@popularNow": {
+    "description": "Book rail title for popular items"
+  },
+  "savedForLater": "Guardado para más tarde",
+  "@savedForLater": {
+    "description": "Book rail title for bookmarked items"
+  },
+  "topListens": "Mejo  "@waitingForAuthorization": {
     "description": "Quick Connect polling status text"
   },
   "back": "Atrás",
